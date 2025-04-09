@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
@@ -18,7 +17,7 @@ import {
 } from '@/components/ui/select';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { IssuePriority, IssueCategory } from '@/types';
-import { toast } from '@/components/ui/sonner';
+import { toast } from "sonner";
 
 const NewIssuePage = () => {
   const navigate = useNavigate();

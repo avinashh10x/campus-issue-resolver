@@ -2,7 +2,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { Issue, Comment, IssueStatus, IssuePriority, IssueCategory, User } from '@/types';
 import { useAuth } from './AuthContext';
-import { toast } from '@/components/ui/sonner';
+import { toast } from "sonner";
 
 interface IssueContextType {
   issues: Issue[];
